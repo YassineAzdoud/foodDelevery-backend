@@ -1,0 +1,34 @@
+{
+  "name": "marhaba-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YoussefBouhalla/Marhaba-Backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YoussefBouhalla/Marhaba-Backend/issues"
+  },
+  "homepage": "https://github.com/YoussefBouhalla/Marhaba-Backend#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "prisma": "^3.12.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^3.12.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.4"
+  }
+}
